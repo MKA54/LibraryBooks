@@ -19,6 +19,9 @@
             <column name="published_date" type="date">
                 <constraints nullable="false"/>
             </column>
+            <column name="active" type="boolean">
+                <constraints nullable="false"/>
+            </column>
         </createTable>
     </changeSet>
 

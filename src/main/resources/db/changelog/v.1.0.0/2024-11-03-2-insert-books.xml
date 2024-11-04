@@ -7,19 +7,22 @@
     <changeSet logicalFilePath="2023-05-12-2-insert-books"
                id="2023-05-12-2-insert-books" author="s.m">
         <insert tableName="books">
-            <column  name="title"  value="Чистый код. Создание, анализ и рефакторинг"/>
-            <column  name="author"  value="Роберт Мартин"/>
-            <column  name="published_date"  value="2020-01-01"/>
+            <column name="title" value="Чистый код. Создание, анализ и рефакторинг"/>
+            <column name="author" value="Роберт Мартин"/>
+            <column name="published_date" value="2020-01-01"/>
+            <column name="active" value="true"/>
         </insert>
         <insert tableName="books">
-            <column  name="title"  value="Совершенный код"/>
-            <column  name="author"  value="Стив Макконнелл"/>
-            <column  name="published_date"  value="2022-01-01"/>
+            <column name="title" value="Совершенный код"/>
+            <column name="author" value="Стив Макконнелл"/>
+            <column name="published_date" value="2022-01-01"/>
+            <column name="active" value="true"/>
         </insert>
         <insert tableName="books">
-            <column  name="title"  value="Эффективная работа с унаследованным кодом"/>
-            <column  name="author"  value="Майкл Физерс"/>
-            <column  name="published_date"  value="2016-01-01"/>
+            <column name="title" value="Эффективная работа с унаследованным кодом"/>
+            <column name="author" value="Майкл Физерс"/>
+            <column name="published_date" value="2016-01-01"/>
+            <column name="active" value="true"/>
         </insert>
     </changeSet>
 
