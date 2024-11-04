@@ -16,7 +16,7 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/minh/rpc/api/v1/books")
+@RequestMapping("/lib/rpc/api/v1/books")
 @RequiredArgsConstructor
 @Validated
 @Slf4j
